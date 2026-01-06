@@ -1,63 +1,35 @@
-## 📌 Task 3: Customer Churn Prediction
+# Task 3: Customer Churn Prediction
 
-### 🔍 Objective
-The goal of this task is to build a machine learning model that predicts whether a customer will exit (churn) or not based on their demographic and account-related information.
-
----
-
-### 📊 Dataset
-- Name: Churn_Modelling.csv
-- Target Variable: Exited  
-  - 1 → Customer exited  
-  - 0 → Customer stayed  
+## 📖 Problem Statement
+The objective of this task is to predict whether a customer is likely to churn (leave a service) based on historical customer data.
 
 ---
 
-### 🛠️ Technologies Used
-- Python  
-- Pandas  
-- NumPy  
-- Scikit-learn  
-- Jupyter Notebook  
+## 📊 Dataset
+- File: `Churn_Modelling.csv`
+- Includes customer demographics, account information, and churn status.
 
 ---
 
-### ⚙️ Workflow
-1. Loaded and explored the dataset  
-2. Removed irrelevant columns (RowNumber, CustomerId, Surname)  
-3. Encoded categorical variables using one-hot encoding  
-4. Split data into training and testing sets  
-5. Trained a Logistic Regression model  
-6. Evaluated the model using accuracy and classification report  
+## ⚙️ Approach
+1. Data preprocessing and handling missing values
+2. Feature selection and encoding
+3. Train-test split
+4. Model training and evaluation
 
 ---
 
-### 📈 Model Used
+## 🤖 Models Used
 - Logistic Regression
+- Random Forest (if applicable)
 
 ---
 
-### ✅ Results
-- Model evaluated using:
-  - Accuracy Score
-  - Precision
-  - Recall
-  - F1-score
+## 📈 Results
+- The model predicts customer churn with good accuracy.
+- Performance evaluated using accuracy score.
 
 ---
 
-### 📁 Files Included
-- task3_customer_churn_prediction.ipynb – Jupyter Notebook  
-- Churn_Modelling.csv – Dataset  
-- Task3_Customer_Churn_Prediction_Report.pdf – Report  
-- README.md – Documentation  
-
----
-
-### 🧾 Conclusion
-This project demonstrates a complete machine learning pipeline for predicting customer churn using supervised learning techniques.
-
----
-
-### 🏷️ Internship
-CODSOFT – Data Science Internship (Task 3)
+## 🧠 Conclusion
+Customer churn prediction helps businesses take proactive actions to retain customers. This task demonstrates a practical application of classification models in business analytics.
